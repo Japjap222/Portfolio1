@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff; 
+            color: #fff; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #4169E1; 
+            color: #fff; 
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .project img.pomodoro:hover,
+        .project img.minimath:hover,
+        .project img.bilibeads:hover,
+        .social-icons a:hover img{
+            transform: scale(1.1); 
+        }
+
+        .project img.pomodoro {
+            margin-bottom: 20px;
+            max-width: 400px;
+        }
+
+        .image-section img.profile-picture {
+            border-radius: 50%; 
+            max-width: 200px;
+            height: auto;
+        }
+
+        h1 {
+            color: #000000; 
+            margin-bottom: 4px;
+        }
+
+        p {
+            color: #000000; 
+        }
+
+        section {
+            padding: 5px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        h2 {    
+            color: #4169E1; 
+        }
+
+        h3{
+            color: #000;
+        }    
+
+        .project {
+            margin-bottom: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #fff; 
+        }
+
+        .project img {
+            max-width: 100%;  
+            height: auto;    
+            border-radius: 5px; 
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #4169E1;
+            display: inline-block; 
+        }
+
+        .social-icons img {
+            width: 50px; 
+            height: auto; 
+            margin-bottom: 10px; 
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="image-section">
+            <img class="profile-picture" src="pfp.png" alt="Name">
+        </div>
+        <h1>Tyron Japeth M. Bianan</h1>
+        <p>Information Technology Student</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Greetings! I am a 2nd-year college student, and I am 20 years old, currently diving into the world of IT industry. 
+            I am on a mission to become a great programmer and a great web developer. I am knowledgeable on programming languages such as
+        Python, Java, and Kotlin. I am still exploring other languages and aspiring to make a meaningful impact in the IT industry.  </p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        
+        <div class="education">
+            <h3>Phinma University of Pangasinan</h3>
+            <p>Bachelor of Science in Information Technology: 2nd Year</p>
+        </div>
+        
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        
+        <div class="project">
+            <h3>Pomodoro Timer</h3>
+            <p>It was a group work where we brainstormed ideas for something that could be useful and that we could possibly achieve.
+                The Pomodoro Technique focuses on breaking down large tasks into smaller, more manageable ones.
+                Ultimately, it allows you to focus better and spread out your productivity levels throughout the day.
+                Since the Pomodoro Timer performs a specific, relatively limited function, we think it would make a good mini-application.</p>
+            <img class="pomodoro" src="pomodoro.png" alt="Pomodoro Timer Project">
+        </div>
+
+        <div class="project">
+            <h3>Mini Math Game</h3>
+            <p>This is a simple math game that prompts the user to guess the answer to a randomly 
+                generated mathematical equation involving addition, 
+                subtraction, multiplication, and division. 
+                The program uses a Graphical User Interface (GUI) to display the equation and collect the user's answer. 
+                The program runs in a loop, 
+                allowing the user to play multiple rounds of the game. After the user submits their answer, the program checks whether it is correct and provides 
+                feedback to the user indicating whether their answer was correct or incorrect. </p>
+            
+            <img class="pomodoro" src="minimath.png" alt="Mini Math">
+        </div>
+        
+        <div class="project">
+            <h3>Bilibeads</h3>
+            <p>Bilibeads: Fashion Accessories is an application for people who like bead accessories. Bilibeads is designed to cater to the vibrant world of bead products. 
+                Bilibeads will be a comprehensive platform where users can explore, purchase, create, and customize a wide range of bead-based products and craft ideas. 
+            </p>
+            <img class="pomodoro" src="bilibeads.jpg" alt="Bilibeads">
+        </div>
+    </section>
+
+    <section class="social-icons">
+        <a href="https://www.facebook.com/japipit26" target="_blank"><img src="fb.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/222japs/" target="_blank"><img src="ig.png" alt="Instagram"></a>
+        <a href="https://github.com/Japjap222" target="_blank"><img src="git.jfif" alt="GitHub"></a>
+    </section>
+</body>
+</html>
